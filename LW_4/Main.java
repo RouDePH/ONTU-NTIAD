@@ -23,12 +23,6 @@ public class Main {
     private static final String DB_PASSWORD = "postgres";
 
     public static void main(String[] args) {
-        // try {
-        //     Class.forName("org.postgresql.Driver");
-        // } catch (ClassNotFoundException e) {
-        //     e.printStackTrace();
-        //     return;
-        // }
 
         try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
             createPlayersTable(connection);
