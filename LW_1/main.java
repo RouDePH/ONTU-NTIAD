@@ -1,3 +1,5 @@
+package LW_1;
+
 class Lab1 {
 
     public static void main(String[] args) {
