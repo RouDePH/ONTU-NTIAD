@@ -8,13 +8,13 @@ public class TreeAndArray {
         System.out.println("Ялинка:");
 
         for (int i = 0; i < levels; i++) {
-            // Друк пробілів для вирівнювання
-            for (int j = 0; j < levels - i - 1; j++) {
+            // Друк пробілів перед ялинкою
+            for (int j = 0; j < levels - i; j++) {
                 System.out.print(" ");
             }
 
             // Друк зірочок
-            for (int j = 0; j < i + 1; j++) {
+            for (int j = 1; j <= 2 * i - 1; j++) {
                 System.out.print("*");
             }
 
